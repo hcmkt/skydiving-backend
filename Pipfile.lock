@@ -1000,11 +1000,11 @@
         },
         "types-flask-cors": {
             "hashes": [
-                "sha256:893d598576ec16b31c6546da17307db7ca1ab7b664768e3cc2240f39b16d5a78",
-                "sha256:d183739e27bbfba82c4d3f0cfa255c1e621f009f7fa3a785e59e03c86b49c1d7"
+                "sha256:384c295ad8c6d8674c22a79619492b4d2ef58dd851c1d0b4c0a2436b4ee34090",
+                "sha256:ed00f6b090914ebbbb5556fc5f4d573f1bd5198dd7a0e1569335d20a99b963a6"
             ],
             "index": "pypi",
-            "version": "==3.0.10.1"
+            "version": "==3.0.10.2"
         },
         "types-requests": {
             "hashes": [
