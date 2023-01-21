@@ -162,7 +162,7 @@
                 "sha256:5a3d016c7c547f69d6f81fb0db9449ce888b418b5b9952cc5e6e66843e9dd845",
                 "sha256:83e9a75d1911279afd89352c68b45348559d1fc0506b054b346651b5e7fee29f"
             ],
-            "markers": "python_full_version >= '3.6.0'",
+            "markers": "python_version >= '3.6'",
             "version": "==2.1.1"
         },
         "click": {
@@ -610,11 +610,11 @@
         },
         "setuptools": {
             "hashes": [
-                "sha256:a78d01d1e2c175c474884671dde039962c9d74c7223db7369771fcf6e29ceeab",
-                "sha256:bd6eb2d6722568de6d14b87c44a96fac54b2a45ff5e940e639979a3d1792adb6"
+                "sha256:6f590d76b713d5de4e49fe4fbca24474469f53c83632d5d0fd056f7ff7e8112b",
+                "sha256:ac4008d396bc9cd983ea483cb7139c0240a07bbc74ffb6232fceffedc6cf03a8"
             ],
             "markers": "python_version >= '3.7'",
-            "version": "==66.0.0"
+            "version": "==66.1.1"
         },
         "six": {
             "hashes": [
@@ -1000,11 +1000,11 @@
         },
         "types-flask-cors": {
             "hashes": [
-                "sha256:893d598576ec16b31c6546da17307db7ca1ab7b664768e3cc2240f39b16d5a78",
-                "sha256:d183739e27bbfba82c4d3f0cfa255c1e621f009f7fa3a785e59e03c86b49c1d7"
+                "sha256:384c295ad8c6d8674c22a79619492b4d2ef58dd851c1d0b4c0a2436b4ee34090",
+                "sha256:ed00f6b090914ebbbb5556fc5f4d573f1bd5198dd7a0e1569335d20a99b963a6"
             ],
             "index": "pypi",
-            "version": "==3.0.10.1"
+            "version": "==3.0.10.2"
         },
         "types-requests": {
             "hashes": [
