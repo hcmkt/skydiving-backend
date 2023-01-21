@@ -1,0 +1,21 @@
+[tool.black]
+target-version = ['py311']
+extend-exclude = 'migrations'
+
+[tool.isort]
+profile='black'
+extend_skip = ['migrations']
+
+[tool.mypy]
+python_version = '3.11'
+exclude = ['migrations']
+plugins = ['sqlmypy']
+
+[[tool.mypy.overrides]]
+module = [
+  'flask_apscheduler.*',
+  'flask_migrate.*',
+  'linebot.*',
+  'ratelimit.*',
+]
+ignore_missing_imports = true

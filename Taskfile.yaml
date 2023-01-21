@@ -1,0 +1,13 @@
+version: '3'
+
+vars:
+  ENDPOINT: http://localhost:5000/settings
+
+tasks:
+  get:
+    cmds:
+      - curl {{.ENDPOINT}} | jq
+
+  put:
+    cmds:
+      - curl {{.ENDPOINT}} -X PUT -H "Content-Type":" application/json" --data @./settings/{{.CLI_ARGS}}.json

@@ -1,0 +1,29 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+flask-apscheduler = "*"
+flask-cors = "*"
+flask-migrate = "*"
+flask-sqlalchemy = "*"
+gunicorn = "*"
+line-bot-sdk = "*"
+mysqlclient = "*"
+python-dotenv = "*"
+ratelimit = "*"
+requests = "*"
+
+[dev-packages]
+black = "*"
+flake8 = "*"
+isort = "*"
+mypy = "*"
+sqlalchemy-stubs = "*"
+types-flask-cors = "*"
+types-requests = "*"
+
+[requires]
+python_version = "3.11"

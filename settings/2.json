@@ -1,0 +1,30 @@
+{
+  "reservationDays": [
+    "火",
+    "木",
+    "土"
+  ],
+  "reservationTimes": [
+    "08:15",
+    "12:00"
+  ],
+  "reservationCameras": [
+    "無"
+  ],
+  "reservationVacancy": 3,
+  "notification": "ON",
+  "notificationTimes": [
+    "01:00",
+    "03:00",
+    "05:00",
+    "07:00",
+    "09:00",
+    "11:00",
+    "13:00",
+    "15:00",
+    "17:00",
+    "19:00",
+    "21:00",
+    "23:00"
+  ]
+}
