@@ -1,4 +1,5 @@
 import datetime
+import zoneinfo
 from math import floor
 
 from linebot.models import TextSendMessage
@@ -16,7 +17,7 @@ from ..utils.reservation import Reservation
 @scheduler.task("cron", id="do_job_1", minute="0")
 def notify():
     with scheduler.app.app_context():
-        now = datetime.datetime.now()
+        now = datetime.datetime.now(zoneinfo.ZoneInfo("Asia/Tokyo"))
         time = datetime.time(floor(now.hour + (now.minute + 30) / 60))
         users = (
             db.session.execute(
