@@ -214,11 +214,11 @@
         },
         "flask-sqlalchemy": {
             "hashes": [
-                "sha256:23d44ca566b02b0b5ee5b29d81b435079402ad73c116bf9918dbda5b03aa30ba",
-                "sha256:b812bc7f1bbf5ff3041cbfa0428bb191bed2c342b7bed88c15d7ce01890bfd5d"
+                "sha256:c5765e58ca145401b52106c0f46178569243c5da25556be2c231ecc60867c5b1",
+                "sha256:cabb6600ddd819a9f859f36515bb1bd8e7dbf30206cc679d2b081dff9e383283"
             ],
             "index": "pypi",
-            "version": "==3.0.4"
+            "version": "==3.0.5"
         },
         "frozenlist": {
             "hashes": [
@@ -994,11 +994,11 @@
         },
         "platformdirs": {
             "hashes": [
-                "sha256:57e28820ca8094678b807ff529196506d7a21e17156cb1cddb3e74cebce54640",
-                "sha256:ffa199e3fbab8365778c4a10e1fbf1b9cd50707de826eb304b50e57ec0cc8d38"
+                "sha256:87fbf6473e87c078d536980ba970a472422e94f17b752cfad17024c18876d481",
+                "sha256:cfd065ba43133ff103ab3bd10aecb095c2a0035fcd1f07217c9376900d94ba07"
             ],
             "markers": "python_version >= '3.7'",
-            "version": "==3.6.0"
+            "version": "==3.7.0"
         },
         "pycodestyle": {
             "hashes": [
